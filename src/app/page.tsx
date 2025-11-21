@@ -25,7 +25,7 @@ const containerVariants = {
 export default function ProptechSummitLanding() {
   return (
     <>
-      {/* Header / Hero */}
+      
       <header className="relative min-h-screen bg-gradient-to-br from-cyan-600 via-cyan-700 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-30"></div>
 
@@ -36,7 +36,7 @@ export default function ProptechSummitLanding() {
             initial="hidden"
             animate="visible"
           >
-            {/* Main Logo */}
+            
             <motion.div 
               
               className="mb-10"
@@ -72,7 +72,7 @@ export default function ProptechSummitLanding() {
               
               className="text-3xl md:text-5xl font-bold mb-12 tracking-wider"
             >
-              23 – 24 May 2026 | Dubai, UAE
+              23 – 24 May 2023 | Dubai, UAE
             </motion.p>
 
             <motion.div 
@@ -85,7 +85,7 @@ export default function ProptechSummitLanding() {
                 whileHover={{ scale: 1.08, boxShadow: "0 25px 50px -12px rgba(0,0,0,0.5)" }}
                 whileTap={{ scale: 0.95 }}
               >
-                Register Interest for 2026 Edition
+                Register Interest for 2023 Edition
               </MotionLink>
               <MotionLink 
                 href="#topics" 
@@ -335,7 +335,7 @@ export default function ProptechSummitLanding() {
         </div>
       </section>
 
-      {/* Footer */}
+      
       <motion.footer 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
